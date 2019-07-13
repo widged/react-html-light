@@ -47,3 +47,56 @@ export default class View extends React.Component {
     );
   }
 }
+
+/*
+export type Color = number | string;
+export type Align = 'auto' | 'flex-start' | 'center' | 'flex-end' | 'stretch' | 'baseline';
+export type Justify = 'flex-start' | 'center' | 'flex-end' | 'space-between' | 'space-around';
+export type Transform = [number, number, number, number, number, number, number, number, number];
+ShadowViewStyles = {|
+  alignContent?: ?Align,
+  alignItems?: ?Align,
+  alignSelf?: ?Align,
+  aspectRatio?: ?number,
+  borderBottomWidth?: ?number,
+  borderLeftWidth?: ?number,
+  borderRightWidth?: ?number,
+  borderTopWidth?: ?number,
+  borderWidth?: ?number,
+  bottom?: ?number,
+  display?: 'flex' | 'none',
+  flex?: ?number,
+  flexBasis?: ?number,
+  flexDirection?: 'row' | 'column',
+  flexGrow?: ?number,
+  flexShrink?: ?number,
+  flexWrap?: 'wrap' | 'nowrap',
+  height?: ?number,
+  justifyContent?: ?Justify,
+  left?: ?number,
+  margin?: ?number,
+  marginBottom?: ?number,
+  marginHorizontal?: ?number,
+  marginLeft?: ?number,
+  marginRight?: ?number,
+  marginTop?: ?number,
+  marginVertical?: ?number,
+  maxHeight?: ?number,
+  maxWidth?: ?number,
+  minHeight?: ?number,
+  minWidth?: ?number,
+  overflow?: 'visible' | 'hidden' | 'scroll',
+  padding?: ?number,
+  paddingBottom?: ?number,
+  paddingHorizontal?: ?number,
+  paddingLeft?: ?number,
+  paddingRight?: ?number,
+  paddingTop?: ?number,
+  paddingVertical?: ?number,
+  position?: 'absolute' | 'relative',
+  right?: ?number,
+  top?: ?number,
+  transform?: ?Transform,
+  width?: ?number,
+|};
+*/

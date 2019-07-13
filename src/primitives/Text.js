@@ -16,6 +16,11 @@ const textStyle = {
   display: "inline-block"
 };
 
+export const fontWeights = {
+  light: 200,
+  normal: 400,
+  bold: 700
+};
 export default class Text extends React.Component {
   static propTypes = TextPropTypes;
 

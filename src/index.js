@@ -5,10 +5,17 @@ import Text from "./primitives/Text";
 import Image from "./primitives/Image";
 import Touchable from "./primitives/Touchable";
 import StyleSheet from "./stylesheet";
-import "./styles.css";
 
 const skin = StyleSheet.create({
-  h1: { fontSize: 32, fontWeight: "bold" },
+  h1: {
+    display: "block",
+    fontSize: "2em",
+    marginTop: "0.67em",
+    marginBottom: "0.67em",
+    marginLeft: 0,
+    marginRight: 0,
+    fontWeight: "bold"
+  },
   vgroup: { display: "flex", flexDirection: "column", flexWrap: "no-wrap" },
   centered: { textAlign: "center" }
 });
@@ -26,7 +33,7 @@ function App() {
   };
   const touchable = (
     <div>
-      <Text style={{}}>Touch Me</Text>
+      <Text>Press Me</Text>
     </div>
   );
 
@@ -34,7 +41,7 @@ function App() {
     <View style={[skin.vgroup, skin.centered]}>
       <Text style={skin.h1}>React-html-elements</Text>
       <Touchable
-        activeStyle={{ background: "blue" }}
+        activeStyle={{ backgroundColor: "blue" }}
         onPress={onPress}
         onLongPress={onLongPress}
       >
